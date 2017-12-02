@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "109615521063",
+    "firebase_url": "https://otptest-ff75c.firebaseio.com",
+    "project_id": "otptest-ff75c",
+    "storage_bucket": "otptest-ff75c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109615521063:android:1afb274a1aff3da7",
+        "android_client_info": {
+          "package_name": "com.chirag.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109615521063-7fcju8eal67da3lq42nmo2r3qu3ff2e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.myapplication",
+            "certificate_hash": "e4171b2566b1a5f408ed3bc94cfa1ddc181ae4fb"
+          }
+        },
+        {
+          "client_id": "109615521063-ou1e3oj9gh4n4mv39rqnnsarpn2848ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKqLPX5NupG2wAwr2l3Q4JjAEyWrTPvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109615521063-ou1e3oj9gh4n4mv39rqnnsarpn2848ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
