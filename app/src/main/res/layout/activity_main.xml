@@ -39,6 +39,7 @@
         android:padding="15dp"
         android:visibility="gone"
          />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,5 +49,18 @@
         android:text="Signin Successfully"
         android:padding="5dp"
         android:textColor="#000000"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgtxt"
+        android:text="Get Location"
+        android:padding="5dp"
+        android:textColor="#000000"
+        />
+
+
+
 </RelativeLayout>

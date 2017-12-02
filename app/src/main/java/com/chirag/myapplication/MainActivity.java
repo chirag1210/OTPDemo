@@ -1,6 +1,7 @@
 package com.chirag.myapplication;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -74,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        findViewById(R.id.location).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,LocationActivity1.class));
+                finish();
+            }
+        });
 
     }
 
